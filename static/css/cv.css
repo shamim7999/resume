@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #66457a;
+}
+
+.container {
+    max-width: 1000px;
+    background: #d5d7e1;
+    /* background: #464858; */
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.my-image {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+.myself {
+    float: left;
+    padding: 20px;
+}
+
+.my-contact {
+    float: right;
+    margin-top: 15px;
+}
+
+.my-contact a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.my-contact a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.div-clearer {
+    clear: both;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.left-content {
+    width: 30%;
+    float: left;
+}
+
+.right-content {
+    width: 70%;
+    float: left;
+}
+
+.right-content p {
+    color: #eee;
+}
+
+.common-hr {
+    border: 1px solid gray;
+}
+.right-info {
+    margin-bottom: 20px;
+}
+.right-info:last-child {
+    margin-bottom: 0;
+}
+
+.left-template-info {
+    width: 45%;
+    float: left;
+}
+
+.right-template-info {
+    width: 45%;
+    float: left;
+}
+
+.footer-container {
+    background: black;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.right-content p {
+    color: #000;
+    font-size: 20px;
+}
